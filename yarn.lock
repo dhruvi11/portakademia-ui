@@ -7186,7 +7186,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:^25.5.2":
+"i18next@npm:^25.6.0":
   version: 25.6.0
   resolution: "i18next@npm:25.6.0"
   dependencies:
@@ -9828,13 +9828,13 @@ __metadata:
     "@testing-library/jest-dom": ^6.8.0
     "@testing-library/react": ^16.3.0
     "@testing-library/user-event": ^13.5.0
-    i18next: ^25.5.2
+    i18next: ^25.6.0
     react: ^19.1.1
     react-dom: ^19.1.1
-    react-i18next: ^15.7.3
+    react-i18next: ^16.2.1
     react-icons: ^5.5.0
     react-redux: ^9.2.0
-    react-router-dom: ^7.9.1
+    react-router-dom: ^7.9.4
     react-scripts: 5.0.1
     web-vitals: ^2.1.4
   languageName: unknown
@@ -10968,14 +10968,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-i18next@npm:^15.7.3":
-  version: 15.7.4
-  resolution: "react-i18next@npm:15.7.4"
+"react-i18next@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "react-i18next@npm:16.2.1"
   dependencies:
     "@babel/runtime": ^7.27.6
     html-parse-stringify: ^3.0.1
+    use-sync-external-store: ^1.6.0
   peerDependencies:
-    i18next: ">= 23.4.0"
+    i18next: ">= 25.5.2"
     react: ">= 16.8.0"
     typescript: ^5
   peerDependenciesMeta:
@@ -10985,7 +10986,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: d7747443850ad8f7ed144312311b998922be6b35dd4aacd590fdee9b8d275d4b4f7a719dc923a8dd8ed1a8a766439c828c9bc5a78e852ec3a834e36210ca83db
+  checksum: e7ee163c7ca20d426fc669985c0c485405a63f45e1b4f3d0c2eca4a1f0ec2ef09ea05ba516ea0e7b982c3dea4f2232812d9de7ad821cd296f18a2dd8c98ba1ec
   languageName: node
   linkType: hard
 
@@ -11045,7 +11046,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^7.9.1":
+"react-router-dom@npm:^7.9.4":
   version: 7.9.4
   resolution: "react-router-dom@npm:7.9.4"
   dependencies:
@@ -13079,7 +13080,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-sync-external-store@npm:^1.4.0":
+"use-sync-external-store@npm:^1.4.0, use-sync-external-store@npm:^1.6.0":
   version: 1.6.0
   resolution: "use-sync-external-store@npm:1.6.0"
   peerDependencies:
