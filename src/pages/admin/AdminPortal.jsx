@@ -1,3 +1,4 @@
+import '../../styles/theme.css';
 import React, { useState } from "react";
 import "../../styles/AdminPortal.css";
 
@@ -68,7 +69,7 @@ const AdminPortal = () => {
     : students;
 
   return (
-    <div className="container">
+    <div className="main">
       <h1>Admin Portal - Program & Subject Management</h1>
 
       {/* 1️⃣ Create Program */}
