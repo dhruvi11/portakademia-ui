@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  gap: 15px;
+  background: #008cba;
+  padding: 12px;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-btn, .logout-btn {
+  margin-left: auto;
+  background: #f44336;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}

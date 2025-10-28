@@ -1,0 +1,20 @@
+.login-header {
+  background-color: #008cba;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-header-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.login-header-select {
+  padding: 8px;
+  width: 0%;
+  border-radius: 4px;
+}

@@ -1,0 +1,33 @@
+{
+  "portal": {
+    "student_title": "Portal Studencki",
+    "staff_title": "Portal Pracownika",
+    "admin_title": "Portal Administratora"
+  },
+  "student": {
+    "dashboard": "Panel główny",
+    "profile": "Profil",
+    "subjects": "Przedmioty",
+    "exams": "Egzaminy",
+    "grades": "Oceny",
+    "payments": "Płatności",
+    "transcript": "Wykaz ocen",
+    "diploma": "Dyplom",
+    "clearance": "Zezwolenie"
+  },
+  "staff": {
+    "dashboard": "Panel główny",
+    "schedule": "Tygodniowy harmonogram",
+    "subjects": "Przedmioty",
+    "grades": "Wprowadź oceny",
+    "homework": "Praca domowa / Test",
+    "profile": "Profil"
+  },
+  "admin": {
+    "program_management": "Zarządzanie programami i przedmiotami",
+    "create_program": "Utwórz program",
+    "add_subject": "Dodaj przedmioty do programu",
+    "enroll_students": "Zapisz studentów",
+    "student_list": "Lista studentów (Filtruj według programu)"
+  }
+}

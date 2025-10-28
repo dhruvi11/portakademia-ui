@@ -1,0 +1,31 @@
+/* Full page container */
+.login-container {
+  width: "100vw";
+  height: "100vh";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f9;
+}
+/* Text under the login form */
+.login-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+/* Signup link */
+.login-link {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px;
+  transition: color 0.3s ease;
+}
+
+.login-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+{
+  "portal": {
+    "student_title": "Student Portal",
+    "staff_title": "Staff Portal",
+    "admin_title": "Admin Portal"
+  },
+  "student": {
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "subjects": "Subjects",
+    "exams": "Exams",
+    "grades": "Grades",
+    "payments": "Payments",
+    "transcript": "Transcript",
+    "diploma": "Diploma",
+    "clearance": "Clearance"
+  },
+  "staff": {
+    "dashboard": "Dashboard",
+    "schedule": "Weekly Schedule",
+    "subjects": "Subjects",
+    "grades": "Upload Grades",
+    "homework": "Homework / Test",
+    "profile": "Profile"
+  },
+  "admin": {
+    "program_management": "Program & Subject Management",
+    "create_program": "Create Program",
+    "add_subject": "Add Subjects to Program",
+    "enroll_students": "Enroll Students",
+    "student_list": "Student List (Filter by Program)"
+  }
+}

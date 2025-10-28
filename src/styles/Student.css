@@ -1,0 +1,150 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html {
+  height: 100%;
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* ===== Layout ===== */
+.portal-container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background: #f4f6f9;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+  width: 250px;
+  background: #2d3748;
+  color: #fff;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.sidebar h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.sidebar a {
+  color: #cbd5e0;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 0.8rem;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+  background: #4a5568;
+  color: #fff;
+}
+
+/* ===== Main Content ===== */
+.main {
+ width: 100%;
+  padding: 2rem;
+  background: #f4f6f9;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin-bottom: 1.5rem;
+}
+
+header h1 {
+  color: #2d3748;
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+}
+
+/* ===== Section Styling ===== */
+.section {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1rem;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.6rem;
+  padding: 0.5rem;
+  background: #f9fafb;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.status-clear {
+  color: green;
+  font-weight: bold;
+}
+
+.status-unclear {
+  color: red;
+  font-weight: bold;
+}
+
+/* ===== Buttons ===== */
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #4299e1;
+  color: white;
+  transition: background 0.3s;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background: #2b6cb0;
+}
+
+button:disabled {
+  background: #a0aec0;
+  cursor: not-allowed;
+}
+
+/* ===== Select Dropdown ===== */
+select {
+  padding: 6px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  margin-top: auto;
+  font-size: 0.9rem;
+  color: #666;
+  padding-top: 1.5rem;
+}

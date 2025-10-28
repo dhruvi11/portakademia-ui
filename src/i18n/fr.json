@@ -1,0 +1,33 @@
+{
+  "portal": {
+    "student_title": "Portail Étudiant",
+    "staff_title": "Portail du Personnel",
+    "admin_title": "Portail Administrateur"
+  },
+  "student": {
+    "dashboard": "Tableau de bord",
+    "profile": "Profil",
+    "subjects": "Sujets",
+    "exams": "Examens",
+    "grades": "Notes",
+    "payments": "Paiements",
+    "transcript": "Relevé de notes",
+    "diploma": "Diplôme",
+    "clearance": "Autorisation"
+  },
+  "staff": {
+    "dashboard": "Tableau de bord",
+    "schedule": "Emploi du temps hebdomadaire",
+    "subjects": "Sujets assignés",
+    "grades": "Téléverser les notes",
+    "homework": "Devoirs / Tests",
+    "profile": "Profil"
+  },
+  "admin": {
+    "program_management": "Gestion des Programmes et Sujets",
+    "create_program": "Créer un programme",
+    "add_subject": "Ajouter des sujets au programme",
+    "enroll_students": "Inscrire des étudiants",
+    "student_list": "Liste des étudiants (Filtrer par programme)"
+  }
+}

@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap");
+
+:root {
+  --primary: #3498db;
+  --accent: #f39c12;
+  --background: #f9f9f9;
+  --white: #ffffff;
+  --text-dark: #2c3e50;
+}
+
+/* ===== DASHBOARD WRAPPER ===== */
+.dashboard-wrapper {
+  background-color: var(--background);
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== HEADER ===== */
+.dashboard-header {
+  background: linear-gradient(90deg, var(--primary) 0%, #0057b8 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  color: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* LOGO SECTION */
+.dashboard-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dashboard-logo img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: var(--white);
+  padding: 4px;
+}
+
+.dashboard-logo h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+/* ===== NAVIGATION ===== */
+.dashboard-nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-btn {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  padding: 10px 24px;
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: var(--white);
+  color: var(--primary);
+  transform: translateY(-2px);
+}
+
+.nav-btn.active {
+  background: var(--white);
+  color: var(--primary);
+  border-color: var(--white);
+}
+
+.nav-btn.logout {
+  background: var(--accent);
+  color: var(--white);
+  border: none;
+}
+
+.nav-btn.logout:hover {
+  background: #e67e22;
+}
+
+/* ===== MAIN CONTENT ===== */
+.dashboard-content {
+  flex: 1;
+  width: 100%;
+  padding: 60px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* ===== CARD STYLE ===== */
+.dashboard-card {
+  background: var(--white);
+  border-radius: 16px;
+  padding: 40px;
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 6px 18px rgba(52, 152, 219, 0.1);
+  border-left: 6px solid var(--primary);
+  animation: fadeIn 0.4s ease;
+}
+
+/* ===== HOME HERO SECTION ===== */
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  gap: 60px;
+  flex-wrap: wrap;
+
+}
+
+.hero-left {
+  flex: 1;
+  width: 100%;
+    border-color: red;
+  border-width: 5px;
+}
+
+.hero-left h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.orange-text {
+  color: var(--accent);
+}
+
+.dark-text {
+  color: var(--text-dark);
+}
+
+.blue-text {
+  color: var(--primary);
+}
+
+.hero-description {
+  color: var(--text-dark);
+  opacity: 0.85;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.admission-btn {
+  background-color: var(--accent);
+  border: none;
+  color: var(--white);
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.admission-btn:hover {
+  background-color: #e67e22;
+  transform: translateY(-2px);
+}
+
+/* RIGHT SIDE IMAGE */
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image-shape {
+  width: 420px;
+  height: 420px;
+  border-radius: 60px 200px 60px 200px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(52, 152, 219, 0.2);
+  background-color: var(--white);
+}
+
+.image-shape img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+  .dashboard-header {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .dashboard-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .home-section {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .hero-left h1 {
+    font-size: 36px;
+  }
+
+  .image-shape {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+  }
+}

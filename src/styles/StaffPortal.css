@@ -1,0 +1,7 @@
+.sidebar {
+  background: #1a202c;
+}
+.sidebar a:hover,
+.sidebar a.active {
+  background: #2d3748;
+}
